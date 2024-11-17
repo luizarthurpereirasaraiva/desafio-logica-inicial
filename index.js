@@ -13,6 +13,27 @@
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-let nickname = "Balian"
-let XP = 1234
-console.log("O Herói de nome está no nível de ")
+let heroiNome = "Balian"
+let EXP = 1500
+let ranking = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"]
+if (EXP < 1000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[0])
+}
+if (1001 < EXP < 2000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[1])
+}
+if (EXP < 1000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[2])
+}
+if (EXP < 1000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[3])
+}
+if (EXP < 1000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[4])
+}
+if (EXP < 1000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[5])
+}
+if (EXP < 1000){
+    console.log("O herói de nome "+ heroiNome +" está no nível de "+ ranking[6])
+}
