@@ -13,7 +13,7 @@
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-let classeRPG = ["escudeiro", "cavaleiro", "mago", "ladino", "arqueiro", "clérico", "necromante", "paladino"]
+let classeRPG = ["escudeiro/a", "cavaleiro/amazona", "mago/a", "ladino/a", "arqueiro/a", "clérico/a", "necromante", "paladino/a"]
 let EXP = [900, 1500, 2800, 5400, 7300, 8500, 9700, 11000]  
 for (let i = 0; i < classeRPG.length; i++){
     let nome = classeRPG[i]
@@ -37,5 +37,5 @@ if (xp < 1000){
 } else if (xp >= 10001){
     ranking = "Radiante";
 }
-console.log("O herói da classe "+ nome +" tem "+ xp+" pontos de experiência e está no nível de "+ ranking+".")
+console.log("O/A personagem da classe "+ nome +" tem "+ xp+" pontos de experiência e está no nível de "+ ranking+".")
 }
