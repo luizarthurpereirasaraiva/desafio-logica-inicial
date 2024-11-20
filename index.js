@@ -1,11 +1,11 @@
 // A ideia foi criar um ranking a partir da classe de herói/heroína. Com a atribuição de experiência variando 
 // entre as classes, ficou notória a preferência/predileção por algumas classes em detrimento de outras.
 
-let classeRPG = ["escudeiro/a", "cavaleiro/amazona", "mago/a", "ladino/a", "arqueiro/a", "clérico/a", "necromante", "paladino/a"]
-let EXP = [900, 1500, 2800, 5400, 7300, 8500, 9700, 11000]  
-for (let i = 0; i < classeRPG.length; i++){
-    let nome = classeRPG[i]
-    let xp = EXP[i]
+let classesRPG = ["escudeiro/a", "cavaleiro/amazona", "mago/a", "ladino/a", "arqueiro/a", "clérico/a", "necromante", "paladino/a"]
+let experiencia = [900, 1500, 2800, 5400, 7300, 8500, 9700, 11000]  
+for (let i = 0; i < classesRPG.length; i++){
+    let nome = classesRPG[i]
+    let xp = experiencia[i]
     let ranking;
 
 if (xp < 1000){
